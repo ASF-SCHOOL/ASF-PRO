@@ -1,0 +1,18 @@
+:root {
+  --black: #2c2d2a;
+  /* --bg: #f8e367; */
+  --bg: #f5f5f7;
+  --bg2: #b6d6c8;
+  --shadow1: 0px 13px 48px -1px rgba(0, 0, 0, 0.25);
+  --shadow2: 0px 13px 46px rgba(0, 0, 0, 0.13);
+  --pink: rgba(255, 255, 255, 0.2);
+  --body-font: "Montserrat", sans-serif;
+  --italic-font: "EB Garamond", serif;
+}
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+body{
+  background: #c8c8c8;
+}

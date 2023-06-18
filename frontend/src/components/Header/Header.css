@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+
+.H-Navigation {
+  color: var(--body-font);
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  background: #c8c8c8;
+  top: 0;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 1000;
+  align-items: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.033) 0px 4px 12px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.033) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.033) 0px 4px 12px;
+}
+.setnav {
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    z-index: 10;
+  }
+  .headerNav-ul1{
+    display: flex;
+  }
+  .headerNav-ul1 li{
+    list-style: none;
+  }
+  .headerNav-ul1 li .set{
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #023a01;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-left: .5rem;
+    text-transform: uppercase;
+  }
+
+
+.Logo {
+  /* background: black; */
+  justify-items: center;
+}
+.Logo img {
+  width: 70px;
+  height: 30px;
+}
+
+
+
+  .headerNav-ul{
+    display: flex;
+  }
+  .headerNav-ul li{
+    list-style: none;
+  }
+  .headerNav-ul li .Contactlink{
+  font-size: 15px;
+  font-weight: bolder;
+  color: #023a01;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+  border-radius: 5px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: .5rem;
+  display: flex;
+  margin-right: 1rem;
+  letter-spacing: 3px;
+  }
+
+.linkTo {
+  font-size: 15px;
+  font-weight: bolder;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #023a01;
+  transition: 0.5s ease-in-out;
+  border-radius: 5px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: .5rem;
+  display: flex;
+  letter-spacing: 3px;
+  margin-right: 1rem;
+}
+
+
+.linkTo:hover {
+  background-color: #fefefe;
+  color: #023a01;
+}

@@ -1,0 +1,64 @@
+.ASF-courses{
+    margin: 3rem auto;
+    width: 98%;
+}
+
+.Alpha .title h2{
+    text-align: center;
+    font-weight: bolder;
+}
+.Alpha .title p{
+    text-align: center;
+    font-size: medium;
+}
+
+.alpha-courses{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.alpha1{
+    padding: 5px;
+    width: 250px;
+    height: 315px;
+    -webkit-box-shadow: 4px 7px 14px 1px rgba(76,125,66,1);
+-moz-box-shadow: 4px 7px 14px 1px rgba(76,125,66,1);
+box-shadow: 4px 7px 14px 1px rgba(76,125,66,1);
+border-radius: 10px;
+transition: .5s ease-in-out;
+background-color: aliceblue;
+position: relative;
+}
+.alpha1:hover{
+    padding: 5px;
+    -webkit-box-shadow: 4px 7px 14px 1px rgba(76,125,66,1);
+-moz-box-shadow: 4px 7px 14px 1px rgba(76,125,66,1);
+box-shadow: 4px 7px 14px 1px rgba(76,125,66,1);
+border-radius: 10px;
+}
+.alpha1 .cost{
+    background-color: none;
+    padding: .5rem;
+    border-radius: 50px;
+    color: white;
+    /* border: 1px solid green; */
+    color: rgb(2, 34, 2);
+}
+
+.cart{
+    position: absolute;
+    bottom: 1%;
+    right: 0;
+    transform: translateX(50%);
+    padding: .5rem;
+    background-color: rgb(6, 32, 1);
+    border-radius: 10px;
+    color: aliceblue;
+    visibility: hidden;
+    transition: .5s ease-in-out;
+}
+.alpha1:hover .cart{
+    visibility: visible;
+    right: 50%;
+}
